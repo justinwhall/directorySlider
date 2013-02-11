@@ -38,14 +38,14 @@ options: 'fade', 'uncover'
 Type base of all files in you directoy. Ex: for files slide_01.jpg, slide_02.jpg and slide_03.jpg the filebase would be 'slide_' and for img_01.png, img_02.png and img_03.png the filebase would be 'img_'.
 ```
 default: 'slide_'
-options: any string
+options: string
 ```
 **extension**
 The file extension of the files you are using.
 ```
 default: 'jpg'
-options: any image format
-``
+options: any image format (string)
+```
 **directory**
 The directory of your slides
 ```
@@ -56,30 +56,30 @@ options: '/path/to/slides/folder'
 Number of slides in directory
 ```
 default: null
-options: any number
+options: integer
 ```
 ###Optional Options
 **speed**
 Slide transition speed in milliseconds
 ```
 default: 1000
-options: any number
+options: integer
 ```
 **timeout**
 Time between slides
 ```
 default: 4000
-options: any number
+options: integer
 ```
 **height**
 Hieght of your slideshow in pixels
 ```
 default: null
-options: any number
+options: integer
 ```
 **width**
 Width of your slideshow in pixels
 ```
 default: null
-options: any number
+options: integer
 ```
