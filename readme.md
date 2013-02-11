@@ -29,7 +29,7 @@ $(document).ready(function(){
 ##Configuration Options
 
 **animation**
-Type of Animation
+Type of Animation.
 ```
 default: 'fade'
 options: 'fade', 'uncover'
@@ -47,38 +47,38 @@ default: 'jpg'
 options: any image format (string)
 ```
 **directory**
-The directory of your slides
+The directory of your slides.
 ```
 default: null
 options: '/path/to/slides/folder'
 ```
 **numslides**
-Number of slides in directory
+Number of slides in directory.
 ```
 default: null
 options: integer
 ```
 ###Optional Options
 **speed**
-Slide transition speed in milliseconds
+Slide transition speed in milliseconds.
 ```
 default: 1000
 options: integer
 ```
 **timeout**
-Time between slides
+Time between slides.
 ```
 default: 4000
 options: integer
 ```
 **height**
-Hieght of your slideshow in pixels
+Height of your slideshow in pixels.
 ```
 default: null
 options: integer
 ```
 **width**
-Width of your slideshow in pixels
+Width of your slideshow in pixels.
 ```
 default: null
 options: integer
