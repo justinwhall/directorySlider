@@ -8,12 +8,12 @@
        // Merge config settings
        var config = $.extend({
            animation: 'slide',
-           fileBase: 'slide_',
+           filebase: 'slide_',
            extension: 'jpg',
            speed: 1000,
            timeout: 4000,
            directory: null,
-           numSlides: null,
+           numslides: null,
            height: null,
            width: null
        }, options || {});
@@ -32,8 +32,8 @@
        var slides = [],
        slideNumber = 1;
 
-       while(slideNumber <= config.numSlides){
-         slides.push('<img src="' + config.directory + config.fileBase + slideNumber + '.' + config.extension + '" />');
+       while(slideNumber <= config.numslides){
+         slides.push('<img src="' + config.directory + config.filebase + slideNumber + '.' + config.extension + '" />');
          slideNumber++;
        }
 
