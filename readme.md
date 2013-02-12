@@ -1,7 +1,7 @@
 #Directory Slider
 ###Loads all images in a specified directory and creates a slide show
 ####Version: 0.9
-For more information and support when I have time or am feeling frisky ===> www.justinwhall.com/directoryslider
+For more information and support when I have time or am feeling frisky ===> http://www.justinwhall.com/directory-jquery-slider/
 
 
 ##Instalation

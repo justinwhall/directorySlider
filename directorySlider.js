@@ -1,3 +1,11 @@
+/**
+ * directorySlider v0.9 - Loads all images in a specified directory and creates a slide show
+ * Author: Justin W. Hall
+ * http://www.justinwhall.com/directory-jquery-slider/
+ *
+ * License: GPL v3
+ */
+
 (function($){
    var directorySlider = function(element, options)
    {
