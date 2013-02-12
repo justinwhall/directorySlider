@@ -22,7 +22,7 @@ For more information and support when I have time or am feeling frisky ===> http
 ###Step 3: Call Directory Slider
 ```javascript
 $(document).ready(function(){
-  $('.directorySlider').directorySLider();
+  $('.directorySlider').directorySlider();
 });
 ```
 
