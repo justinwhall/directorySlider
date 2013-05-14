@@ -60,8 +60,8 @@
        });
 
     setInterval(function(){
-       firstSlide = elem.find('img:first-child'),
-       lastSlide = elem.find('img:last-child');
+       var firstSlide = elem.find('img:first-child'),
+           lastSlide = elem.find('img:last-child');
        // Apply animation
        switch(config.animation){
 
