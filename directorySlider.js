@@ -55,7 +55,8 @@
          $(val).css({
            position: 'absolute',
            top: 0,
-           left: 0
+           left: 0,
+           width: config.width // ADDED THIS SO WE DON'T NEED TO HAVE ALL IMAGES WITH SAME HEIGHT & WIDTH
          }).appendTo(slideWrap);
        });
 
